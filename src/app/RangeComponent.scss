@@ -1,0 +1,16 @@
+@import "_colors";
+
+.ux-range-component {
+	height: 30px;
+	.left {
+		background: $selectedColor;
+	}
+	.right {
+		background: $nonSelectedColor;	
+	}
+	.slider-image {
+		background: $black;
+		width: 20px;
+		position: absolute;
+	}
+}
